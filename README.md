@@ -1,2 +1,0 @@
-# ladyred
-Photography webpage
