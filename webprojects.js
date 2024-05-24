@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
             image: 'Malana.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/miller'
         }
+        {
+            title: 'Jalila Abdulazeez Usman',
+            description: 'Career Website',
+            image: 'https://via.placeholder.com/300x200',
+            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/jalila-abdulazeez-usman'
+        }
     ];
 
     const projectsContainer = document.getElementById('projects');
