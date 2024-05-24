@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kaylin-thomas'
         },
         {
-             title: 'Malana Miller',
+            title: 'Malana Miller',
             description: 'Paddle Ball Game',
             image: 'Malana.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/miller'
-        }
-        {
+        },
+        {  <!-- Missing comma was here -->
             title: 'Jalila Abdulazeez Usman',
             description: 'Career Website',
             image: 'Jalila.jpg',
