@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Kanvar Singh Project',
             description: 'Digital Clock',
-            image: 'https://via.placeholder.com/300x200',
-            link: 'https://sites.google.com/d/1nAocbl6QabjOcmAYL5HxziCk7Tqd-hBX/p/1FHuR2zpg1RK64_UMOy0no0cpwvUUPptS/edit'
+            image: 'C:\Users\syear\Downloads\Kanvar digital_clock (2)\kanvarsingh.jpg',
+            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kanvar-singh'
         },
         {
             title: 'Project 2',
