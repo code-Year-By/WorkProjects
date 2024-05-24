@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kaylin-thomas'
         },
         {
-            title: 'Project 3',
-            description: 'Description for project 3.',
+             title: 'Malana Miller',
+            description: 'Pinball Game',
             image: 'https://via.placeholder.com/300x200',
-            link: 'https://example.com/project3'
+            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/miller'
         }
     ];
 
