@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Kanvar Singh Project',
             description: 'Digital Clock',
-            image: 'https://github.com/code-Year-By/WorkProjects/blob/main/kanvarsingh.jpg',
+            image: 'kanvarsingh.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kanvar-singh'
         },
         {
