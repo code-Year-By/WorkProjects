@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/jalila-abdulazeez-usman'
         }
 		{
-            title: 'Jalila Abdulazeez Usman',
+            title: 'Phu Vu',
             description: 'Worldwide Foods Website',
             image: 'phu.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/phu-vu'
