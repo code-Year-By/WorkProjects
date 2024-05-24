@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         {
-            title: 'Project 1',
-            description: 'Description for project 1.',
+            title: 'Kanvar Singh Project',
+            description: 'Digital Clock',
             image: 'https://via.placeholder.com/300x200',
-            link: 'https://example.com/project1'
+            link: 'https://sites.google.com/d/1nAocbl6QabjOcmAYL5HxziCk7Tqd-hBX/p/1FHuR2zpg1RK64_UMOy0no0cpwvUUPptS/edit'
         },
         {
             title: 'Project 2',
