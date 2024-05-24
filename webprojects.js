@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kanvar-singh'
         },
         {
-            title: 'Project 2',
-            description: 'Description for project 2.',
-            image: 'https://via.placeholder.com/300x200',
-            link: 'https://example.com/project2'
+            title: 'Kaylin Thomas',
+            description: 'Digital Clock',
+            image: 'kaylin Thomas.jpg',
+            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/kaylin-thomas'
         },
         {
             title: 'Project 3',
