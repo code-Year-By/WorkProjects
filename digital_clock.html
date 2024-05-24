@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Digital Clock</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/abstract-futuristic-with-glowing-neon-light-grid-line-pattern-background-technology-style_79161-851.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #e94560;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        button {
+            width: 150px;
+            font-size: 18px;
+            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            background-color: #0f3460;
+            color: #e94560;
+            border: 2px solid #e94560;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+            padding: 12px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e94560;
+            color: #0f3460;
+        }
+
+        #clock {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        #date {
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #e94560, 0 0 20px #e94560, 0 0 30px #e94560, 0 0 40px #e94560;
+            }
+            to {
+                text-shadow: 0 0 20px #e94560, 0 0 30px #e94560, 0 0 40px #e94560, 0 0 50px #e94560, 0 0 60px #e94560;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Digital Clock</h1>
+    <div>
+        <button id="12hrs" onclick="switch12HourTime()">12 Hour Time</button>
+        <button id="24hrs" onclick="switch24HourTime()">24 Hour Time</button>
+    </div>
+    <div id="clock">12:00 AM</div>
+    <div id="date">January 1st, 2024</div>
+
+    <script>
+        var timeDisplay = document.getElementById("clock");
+        var dateDisplay = document.getElementById("date");
+        var is24HourFormat = false;
+
+        function updateTime() {
+            var today = new Date();
+            var hours = today.getHours();
+            var minutes = today.getMinutes();
+            var seconds = today.getSeconds();
+            var ampm = getTimePeriod();
+
+            if (!is24HourFormat) {
+                hours = hours % 12 || 12;
+            }
+
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            var timeString = hours + ':' + minutes + ':' + seconds;
+            if (!is24HourFormat) {
+                timeString += ' ' + ampm;
+            }
+
+            timeDisplay.textContent = timeString;
+            updateDate();
+        }
+
+        function updateDate() {
+            var today = new Date();
+            var dayOfWeek = getDayName();
+            var month = getMonthName();
+            var dayOfMonth = today.getDate();
+            var year = today.getFullYear();
+            var dateString = dayOfWeek + ", " + month + " " + dayOfMonth + " " + year;
+            dateDisplay.textContent = dateString;
+        }
+
+        function switch12HourTime() {
+            is24HourFormat = false;
+            updateTime();
+        }
+
+        function switch24HourTime() {
+            is24HourFormat = true;
+            updateTime();
+        }
+
+        function getDayName() {
+            var today = new Date();
+            var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            return dayNames[today.getDay()];
+        }
+
+        function getMonthName() {
+            var today = new Date();
+            var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            return monthNames[today.getMonth()];
+        }
+
+        function getTimePeriod() {
+            var hour = new Date().getHours();
+            return hour >= 12 ? 'PM' : 'AM';
+        }
+
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
