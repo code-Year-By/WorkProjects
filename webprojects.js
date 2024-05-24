@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
          {
             title: 'Jalila Abdulazeez Usman',
             description: 'Career Website',
-            image: 'https://via.placeholder.com/300x200',
+            image: 'Jalila.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/jalila-abdulazeez-usman'
         }
 		{
