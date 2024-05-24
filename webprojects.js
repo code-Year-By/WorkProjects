@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Jalila Abdulazeez Usman',
             description: 'Worldwide Foods Website',
             image: 'phu.jpg',
-            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/jalila-abdulazeez-usman'
+            link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/phu-vu'
         }
     ];
 
