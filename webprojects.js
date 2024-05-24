@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
              title: 'Malana Miller',
             description: 'Pinball Game',
-            image: 'https://via.placeholder.com/300x200',
+            image: 'Malana.jpg',
             link: 'https://sites.google.com/henry.k12.ga.us/yearby-programming/projects-2023-2024/miller'
         }
     ];
